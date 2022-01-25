@@ -1,0 +1,43 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# *.cpp file
+2_typesstructs/quadratic
+3_streams/stringstream
+3_streams/3_streams/OurSimpio/simpio_soln
+3_streams/3_streams/OurSimpio/simpio
+3_streams/3_streams/Ostreams/ostreams
+3_streams/3_streams/Ostreams/ostreams_soln
+3_streams/3_streams/Istreams/istreams
+3_streams/3_streams/Istreams/istreams_soln
+*.zip
