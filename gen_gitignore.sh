@@ -6,12 +6,14 @@
 {
     echo "#include<bits/stdc++.h>
 using namespace std;
-int main(){
+int main () {
     string s;
-    while(cin>>s){
-        string t=\"\";
-        for(size_t i=2;i+4<s.length();i++)t+=s[i];
-        cout<<t<<'\n';
+    while (getline(cin, s)) {
+        if (s.length() < 6) continue;
+        assert(s[0]=='.' && s[1]=='/');
+        int p=(int)s.length()-4;
+        assert(s.substr(p,4) == \".cpp\");
+        cout << s.substr(2, p-2) << '\n';
     }
     return 0;
 }"
@@ -28,4 +30,5 @@ rm -f gen_gitignore.cpp gen_gitignore
 
 {
     echo "*.zip"
+    echo ".DS_Store"
 } >> .gitignore
