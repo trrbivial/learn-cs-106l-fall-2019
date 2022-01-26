@@ -33,11 +33,13 @@
 
 # *.cpp file
 2_typesstructs/quadratic
+5_iterators_pointers/iterators_and_pointers
 4_containers/Stanford vs STL/main
 4_containers/Stanford vs STL/testing/TestDriver
 4_containers/Stanford vs STL/testing/TestingGUI
 4_containers/Stanford vs STL/testing/TextUtils
 4_containers/Stanford vs STL/testing/MemoryDiagnostics
+4_containers/Stanford vs STL/check
 4_containers/vector_time_trials
 4_containers/vector_list_deque
 4_containers/vector_time_trials_solution
