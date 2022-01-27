@@ -13,7 +13,27 @@ using std::ifstream;        using std::stringstream;
 using std::string;          using std::vector;
 using std::priority_queue;  using std::unordered_map;
 using std::unordered_set;   using std::cin;
+using std::pair;            using std::domain_error;
 
+int Getint(ifstream& fil) {
+    string tmp;
+    getline(fil, tmp);
+    stringstream iss(tmp);
+    int x;char ch;
+    if (iss >> x && !(iss >> ch)) return x;
+    throw domain_error("can't read an int");
+    return -1;
+}
+
+pair<string, string> Getpair(ifstream& fil) {
+    string tmp;
+    getline(fil, tmp);
+    stringstream iss(tmp);
+    string st,ed;char ch;
+    if (iss >> st && iss >> ed && !(iss >> ch)) return {st, ed};
+    throw domain_error("can't read two strings");
+    return {"", ""};
+}
 int main() {
     // a quick working directory fix to allow for easier filename inputs
     auto path = std::filesystem::current_path() / "res/";
@@ -34,6 +54,16 @@ int main() {
     string filename;
     getline(cin, filename);
 
+    ifstream iss(filename.c_str());
+    int n = Getint(iss);
+    while (n--) {
+        auto [st, ed] = Getpair(iss);
+        auto p = findWikiLadder(st, ed);
+        outputLadders.push_back(p);
+        for (auto x : p) {
+            cout << x << ' ';
+        } cout << '\n';
+    }
     /* 
         TODO: Create a filestream from the filename.
         For each pair {start_page, end_page} in the input file,
