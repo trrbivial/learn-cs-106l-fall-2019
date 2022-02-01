@@ -43,6 +43,8 @@
 4_containers/vector_time_trials
 4_containers/vector_list_deque
 4_containers/vector_time_trials_solution
+9_lambdas/solution
+9_lambdas/exercises
 6_classes/strvector_soln
 6_classes/strvector
 6_classes/main
@@ -103,6 +105,10 @@ cs106L-assignment1/vcpkg/buildtrees/curl/src/url-7_81_0-459d17a9d2.clean/src/mac
 cs106L-assignment1/vcpkg/buildtrees/curl/src/url-7_81_0-459d17a9d2.clean/docs/examples/htmltitle
 cs106L-assignment1/error
 cs106L-assignment1/main
+7_template_classes/realvector_soln
+7_template_classes/realvector
+7_template_classes/cci
+7_template_classes/main
 3_streams/stringstream
 3_streams/3_streams/OurSimpio/simpio_soln
 3_streams/3_streams/OurSimpio/simpio
@@ -110,6 +116,10 @@ cs106L-assignment1/main
 3_streams/3_streams/Ostreams/ostreams_soln
 3_streams/3_streams/Istreams/istreams
 3_streams/3_streams/Istreams/istreams_soln
+8_template_functions/count_occurrences
+8_template_functions/template_functions
+8_template_functions/count_occurrences_soln
+8_template_functions/template_functions_soln
 gen_gitignore
 3pt5_initsRefs/Quadratic/quadratic_soln
 3pt5_initsRefs/Quadratic/quadratic
