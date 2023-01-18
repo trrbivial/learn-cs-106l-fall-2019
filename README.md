@@ -2,5 +2,5 @@
 
 learn vim, git, makefile, modern c++
 
-![](./Screenshot_20230118_160826.png)
+![](./images/Screenshot_20230118_160826.png)
 
